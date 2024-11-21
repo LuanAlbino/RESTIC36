@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body { 
+    font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.button {
+   background-color: #ED1B00;
+   color: white;
+  }

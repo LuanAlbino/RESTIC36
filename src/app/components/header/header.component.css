@@ -1,0 +1,44 @@
+/* Estilização do header */
+.header-container {
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Espaço entre o logo e os links */
+    padding: 10px 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilização do logo */
+  .logo {
+    height: 64px; /* Ajuste o tamanho conforme necessário */
+    margin-left: 150px;
+  }
+  
+  /* Estilização da barra de navegação */
+  .menu {
+    display: flex; /* Deixa os itens em linha */
+    justify-content: flex-end; /* Alinha os itens à direita */
+    flex-grow: 1; /* Ocupa o restante do espaço */
+align-items: center;
+margin-right: 200px;
+  }
+  
+  .menu-itens a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #521D16; /* Cor do texto */
+    margin-left: 40px; /* Espaço entre os links */
+    transition: color 0.3s ease; /* Transição para hover */
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  } 
+  
+  .menu-itens a:hover {
+    color: #521D16; /* Cor ao passar o mouse */
+  }
+  /* Início */
+
+/* logo */
+
+
+
+
+        

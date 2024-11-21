@@ -1,0 +1,42 @@
+/* Estilo para a div que contém a imagem */
+.container {
+    display: flex;                  /* Usa Flexbox */
+    justify-content: center;        /* Alinha a imagem horizontalmente */
+    align-items: center;            /* Alinha a imagem verticalmente */
+    margin-top: 100px;   
+    text-align: center;             /* Define a altura da div para ocupar toda a tela */
+  }
+
+  img {      
+           margin: top 300px;
+    height: auto; 
+    align-items: center;                  /* Mantém a proporção da imagem */
+  }
+
+    .botoes {
+      display: flex;                /* Usa Flexbox para centralizar os botões */
+      justify-content: center;      /* Alinha os botões horizontalmente */
+      gap: 40px;                    /* Adiciona um espaço de 20px entre os botões */
+      margin-top: 100px;             /* Margem superior para posicionar os botões mais para baixo */
+    }
+    
+    /* Estilo para os botões */
+    .botoes button {
+      padding: 18px 60px;           /* Espaçamento interno dos botões */       /* Cor de fundo vermelha */              /* Cor do texto branco */
+      font-size: 23px;              /* Tamanho da fonte */
+      cursor: pointer;              /* Altera o cursor para indicar que é um botão clicável */
+      transition: background-color 0.3s; /* Animação para a cor de fundo */
+    }
+        /* Cor para o botão 'Fazer Pedido' */
+        .pedidos {
+          border: none;
+          background-color: #ED1B00;
+          padding: 18px 60px;
+          color: #FFFFFF 
+        }
+            
+    .cardapio {
+     background-color: #FFFFFF;
+      color: #521D16; 
+      border: 1px solid #ED1B00;/* Cor do texto para o botão 'Acessar Cardápio' (Verde) */
+    justify-content: center;}

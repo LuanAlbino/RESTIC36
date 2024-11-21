@@ -1,0 +1,44 @@
+.tudo {
+    display: flex; /* Ativa o Flexbox */
+    flex-wrap: nowrap; /* Impede quebra de linha */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    align-items: flex-start; /* Alinha os cards ao topo verticalmente */
+    gap: 20px; /* Espaçamento horizontal entre os cards */
+    padding: 20px; /* Espaçamento interno do container */
+    overflow-x: auto; /* Permite rolagem horizontal caso necessário */
+  }
+  
+  .card {
+    width: 300px; /* Largura fixa do card */
+    border: 1px solid #ddd; /* Borda inicial do card */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 15px; /* Espaçamento interno do card */
+    text-align: center; /* Centraliza o conteúdo do card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar os cards */
+    background-color: #fff; /* Fundo branco do card */
+    transition: all 0.3s ease; /* Transição suave para o efeito de hover */
+  }
+  
+  .card:hover {
+    border: 1px solid #e74c3c; /* Borda vermelha ao passar o mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Aumenta a sombra no hover */
+  }
+  
+  .card img {
+    width: 100%; /* Imagem ocupa a largura total do card */
+    height: auto; /* Mantém proporção da imagem */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+  }
+  
+  .titulo {
+    font-size: 18px; /* Tamanho do título */
+    font-weight: bold; /* Negrito */
+    margin: 10px 0; /* Espaçamento acima e abaixo do título */
+    color: #333; /* Cor do texto */
+  }
+  
+  .descricao {
+    font-size: 16px; /* Tamanho do texto da descrição */
+    color: #555; /* Cor do texto */
+  }
+  

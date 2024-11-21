@@ -1,0 +1,8 @@
+<div>
+    <h1 class="titulo">CARDAPIO</h1>
+</div>
+<div class="conteudo">
+    @for (item of itemlist; track $index) {
+    <app-cards [item]="item" />
+    }
+<app-button  [routerLink]="['/produtos']"> VER CARDAPIO COMPLETO</app-button>[

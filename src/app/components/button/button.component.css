@@ -1,0 +1,19 @@
+/* Estilo para o container dos botões */
+.botoes {
+    display: flex;                /* Usa Flexbox para centralizar os botões */
+    justify-content: center;      /* Alinha os botões horizontalmente */
+    gap: 40px;                    /* Adiciona um espaço de 20px entre os botões */
+    margin-top: -150px;             /* Margem superior para posicionar os botões mais para baixo */
+  }
+  
+  /* Estilo para os botões */
+  .botoes button {
+    padding: 17px 60px;           /* Espaçamento interno dos botões */
+    background-color: #ED1B00;        /* Cor de fundo vermelha */              /* Cor do texto branco */
+    border: none;                 /* Remove as bordas padrão */
+    font-size: 23px;              /* Tamanho da fonte */
+    cursor: pointer;              /* Altera o cursor para indicar que é um botão clicável */
+    transition: background-color 0.3s; /* Animação para a cor de fundo */
+  }
+  
+  

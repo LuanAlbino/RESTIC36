@@ -1,0 +1,11 @@
+<div>
+    <h1 class="titulo">X-Vegan</h1>
+</div>
+<div class="container" [routerLink]="['/detalhes']" >
+    @for (item of itemlist; track $index) {
+    <app-cards [item]="item" />
+    }
+    </div>
+    <div class="botoes">
+     <app-button> vER CARDAPIO COMPLETO</app-button>
+    </div>
